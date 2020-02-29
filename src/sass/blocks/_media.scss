@@ -27,6 +27,19 @@
            margin: 30px auto;
         }
     }
+    .carousel {
+        &__inner {
+            width: 450px;
+           img {
+               width: 100%;
+           }
+        }
+    }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
 }
 @media (max-width: 767px) {
     .header {
@@ -74,6 +87,29 @@
            margin: 20px auto;
         }
     }
+    .carousel {
+        padding-bottom: 50px;
+        &__inner {
+            width: 400px;
+           img {
+               width: 400px;
+           }
+        }
+    }
+    .catalog {
+        padding-bottom: 50px;
+        &-item {
+            min-height: 425px;
+            &__img {
+                height: 150px;
+            }
+        }
+        &__tabs {
+            margin-top: 30px;
+        }
+    }
+   
+    
   
 }
 @media (max-width: 575px) {
@@ -165,5 +201,36 @@
     }
     .feed-form {
          width: 260px;   
+    }
+    .carousel {
+        padding: 50px 0;
+        &__inner {
+            width: 280px;
+           img {
+               width: 280px;
+           }
+        }
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0;
+        button {
+            display: none;
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin-top: 40px;
+        }
+        &__tab {
+            width: 78px;
+            height: 43px;
+            font-size: 8px;
+            line-height: 40px;
+            &:hover {
+                box-shadow: 3px 3px 10px $main-color;
+            }
+        }
     }
 }
