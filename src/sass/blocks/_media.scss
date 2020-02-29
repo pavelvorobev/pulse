@@ -88,7 +88,7 @@
         }
     }
     .carousel {
-        padding-bottom: 50px;
+        padding-bottom: 50px;   
         &__inner {
             width: 400px;
            img {
@@ -106,6 +106,20 @@
         }
         &__tabs {
             margin-top: 30px;
+        }
+    }
+    .feedback {
+        &-item{
+            margin-top: 50px;
+            img {
+                width: 130px;
+            }
+            &__descr {
+                margin-left: 30px;
+            }
+            &__text {
+                font-size: 12px;
+            }
         }
     }
    
@@ -230,6 +244,28 @@
             line-height: 40px;
             &:hover {
                 box-shadow: 3px 3px 10px $main-color;
+            }
+        }
+    }
+    
+    .feedback {
+        .title {
+            font-size: 28px;
+        }
+        &-item {
+            flex-direction: column;
+            min-width: 280px;
+            margin: 50px auto 0 auto;
+            align-items: center;
+            &__descr {
+                margin-left: 0;
+                text-align: justify;
+            }
+            &__name {
+                text-align: center;
+            }
+            &__achievement {
+                text-align: center;
             }
         }
     }

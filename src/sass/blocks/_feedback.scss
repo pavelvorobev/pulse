@@ -1,0 +1,30 @@
+.feedback {
+    padding-bottom: 70px;
+    &-item {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 102px;
+        &__descr {
+            margin-left: 63px;
+            max-width: 670px;
+        }
+        &__name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #0d0d0d;
+        }
+        &__achievement {
+            font-size: 14px;
+            margin-top: 10px;
+            font-weight: 300;
+            color: #646464;
+        }
+        &__text {
+            font-size: 16px;
+            line-height: 1.2;
+            margin-top: 19px;
+            font-weight: 300;
+            color: #0d0d0d;
+        }
+    }
+}
