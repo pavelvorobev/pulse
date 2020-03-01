@@ -122,6 +122,13 @@
             }
         }
     }
+    .footer {
+        &__info {
+            width: 400px;
+            height: 220px;
+            padding: 25px 10px 25px 10px;
+        }
+    }
    
     
   
@@ -267,6 +274,16 @@
             &__achievement {
                 text-align: center;
             }
+        }
+    }
+
+    .footer {
+        &__info {
+            position: relative;
+            width: 100%;
+        }
+        &__map {
+            height: 410px;
         }
     }
 }
