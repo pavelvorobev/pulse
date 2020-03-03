@@ -286,4 +286,29 @@
             height: 410px;
         }
     }
+
+    .modal {
+        width: 280px;
+        padding: 20px 10px 10px 10px;
+        /* padding-bottom: 0; */
+        
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__descr {
+            font-size: 13px;
+        }
+        &__close {
+            right: 2px;
+            font-size: 25px;
+        }
+        .feed-form {
+            width: 230px;
+            min-height: 300px;
+            margin-bottom: 10px;
+        }
+        .button_submit{
+            font-size: 15px;
+        }
+    }
 }
